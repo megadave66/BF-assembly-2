@@ -185,7 +185,7 @@ The standard library is a library built-into `assembler.py`, and implement a wid
 *NOTE: the language is still in it's beta phase and contributions to the standard library would be encouraged.*
 
 **Part 5: Importing files**
-If you want to import a file of numbers into BF assembly, then you can use the `load` instruction.
+If you want to import a file of numbers into BF assembly, you can use the `load` instruction.
 Example:
 
 `numbers.txt`
