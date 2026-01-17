@@ -173,7 +173,7 @@ print
 ```
 
 **Part 4: Standard library**
-The standard library is a library built-into `assembler.py`, and implement a wide range of possibilities:
+The standard library is a library built-into `assembler.py`, and implements a wide range of macros:
 - `set_zero`: Sets current memory cell to `0`
 - `set`: Sets current memory cell to `$0`
 - `push_lt`: Moves the current value of the cell `$0` cells to the left
