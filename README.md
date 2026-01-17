@@ -179,7 +179,7 @@ The standard library is a library built-into `assembler.py`, and implement a wid
 - `push_lt`: Moves the current value of the cell `$0` cells to the left
 - `push_rt`: Moves the current value of the cell `$0` cells to the right
 - `mult_lt`: Multiplies the value of the current memory vell by `$0` and save the value to the cell `$1` cells to the left
-- `mult_rt`: Multiplies the value of the current memory vell by `$0` and save the *value to the cell `$1` cells to the right
+- `mult_rt`: Multiplies the value of the current memory vell by `$0` and save the value to the cell `$1` cells to the right
 - `get_multiple_inputs`: Take `$0` values of user input (Goes to the first value when done)
 - `say_multiple_values`: Say the first `$0` values *(Including the current one)* to the right *(Goes back to the first value when done)*
 *NOTE: the language is still in it's beta phase and contributions to the standard library would be encouraged.*
