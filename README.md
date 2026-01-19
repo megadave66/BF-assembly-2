@@ -101,7 +101,7 @@ rt 1
 print
 ```
 
-If your repeates itself, like this:
+If your code repeates itself, like this:
 
 ```BF assembly
 inp
