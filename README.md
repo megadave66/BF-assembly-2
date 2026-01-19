@@ -19,6 +19,7 @@ This is an assembly language that compiles into brainf**ck, a very popular but h
 *IMPORTANT: If you haven't done so, download python on your computer before continuing.*
 
 Start by downloading `assembler.py` from the repo and move it into an empty folder. Then in that folder, create a file called `main.txt` *(The .txt isn't nessesary, you can use any file format like .asm, .bf, etc.)* and type in the following:
+
 ```bf assembly
 rt 1
 lt 1
@@ -54,6 +55,7 @@ These are the basic instructions of BF assembly:
 - `print`: Prints the value of the current memory cell
 
 Example:
+
 ```BF assembly
 ; Program that takes in two numbers, adds 3 to both, and then outputs them
 
@@ -79,6 +81,7 @@ print
 To replicate the [] loop in BF assembly, start by writing `.loop` *(This is equivalent to the command `[`)* and then `.endloop`. *(This is equivalent to the command `]`)* Then, what you write in between those two will be inside the loop.
 
 Example:
+
 ```BF assembly
 ; Program to accept two values and output their sum
 
@@ -122,10 +125,13 @@ Example:
 ```
 
 **Part 4: Macros**
+---------------------
 Macros are used to add more abstraction to your code. They are useful if you have code that repeats itself a lot.
 
 When we use macros, we specify the parameters as we did in Part 3.
+
 Example:
+
 ```BF assembly
 ; Move the cursor 2 cells right and 1 cell left $0 times
 .macro 2_rt_1_lt
@@ -152,6 +158,7 @@ print
 ; Output [Whatever the user inputs], 0
 ```
 If you have to many macros for a single code file, you can put those other macros in a library.
+
 Example:
 
 `library.txt`
@@ -173,6 +180,7 @@ print
 ```
 
 **Part 4: Standard library**
+-----------------------
 The standard library is a library built-into `assembler.py`, and implements a wide range of macros:
 - `set_zero`: Sets current memory cell to `0`
 - `set`: Sets current memory cell to `$0`
@@ -186,7 +194,9 @@ The standard library is a library built-into `assembler.py`, and implements a wi
 *NOTE: the language is still in it's beta phase and contributions to the standard library would be encouraged.*
 
 **Part 5: Importing files**
+---------------------
 If you want to import a file of numbers into BF assembly, you can use the `load` instruction.
+
 Example:
 
 `numbers.txt`
