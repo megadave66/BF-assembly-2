@@ -101,7 +101,8 @@ rt 1
 print
 ```
 
-If you code that repeates itself, like this:
+If your repeates itself, like this:
+
 ```BF assembly
 inp
 rt 1
@@ -114,6 +115,7 @@ rt 1
 inp
 rt 1
 ```
+
 You can shorten it, using the instruction `.rp [Number of times]`.
 
 Example:
